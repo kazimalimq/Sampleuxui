@@ -40,7 +40,6 @@
 
 }
 
-
 .gpt3__whatgpt3-heading{
 
     display: flex;
@@ -103,6 +102,7 @@ font-family: var(--font-family);
 }
 
 @media screen and (max-width: 650px) {
+    
     /* Customizing feature component as per needs */
     .gpt3__whatgpt3-feature .gpt3__features-container__feature {
         flex-direction: column;
