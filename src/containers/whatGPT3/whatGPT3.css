@@ -85,7 +85,7 @@ font-family: var(--font-family);
 }
 
 /* Customizing feature component as per needs */
-.gpt3__whatgpt3-container .gpt3__features-container_feature-text {
+.gpt3__whatgpt3-container .gpt3__features-container_feature-text p{
     margin-top: 0.5rem;
 }
 
@@ -106,16 +106,20 @@ font-family: var(--font-family);
     /* Customizing feature component as per needs */
     .gpt3__whatgpt3-feature .gpt3__features-container__feature {
         flex-direction: column;
+        
+        
     }
 
     /* Customizing feature component as per needs */
     .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
         margin-top: 0.5rem;
+    
+       
     }
 
     .gpt3__whatgpt3-heading h1 {
-        font-size: 28px;
-        line-height: 40px;
+        font-size: 30px;
+        line-height: 35px;
     }
 }
 
@@ -126,3 +130,11 @@ font-family: var(--font-family);
         min-width: 100%;
     }
 }
+
+@media screen and (max-width: 450px) {
+    /* Customizing feature component as per needs */
+    .gpt3__whatgpt3 {
+        all: revert;
+    }
+}
+
